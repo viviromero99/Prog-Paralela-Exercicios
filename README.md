@@ -9,8 +9,6 @@ mpirun -np X --oversubscribe file
 
 gcc file.c -o file -fopenmp
 
-export OMP_NUM_THREADS=4
-
-setenv OMP_NUM_THREADS 4
+export OMP_NUM_THREADS=X
 
 ./file
