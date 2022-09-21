@@ -1,5 +1,14 @@
-# How to run
+# How to run MPI
 
-mpicc matriz.c -o matriz
+mpicc file.c -o file
 
-mpirun -np 6 --oversubscribe matriz
+mpirun -np X --oversubscribe file
+
+
+# How to run OpenMP
+
+gcc file.c -o file -fopenmp
+
+gcc openmp_helloworld.c -o hello -fopenmp
+
+./file
