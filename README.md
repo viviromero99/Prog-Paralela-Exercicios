@@ -12,3 +12,5 @@ gcc file.c -o file -fopenmp
 export OMP_NUM_THREADS=X
 
 ./file
+
+time (ou /bin/time) -v (ou -verbose)
