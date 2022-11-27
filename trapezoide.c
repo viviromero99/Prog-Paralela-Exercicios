@@ -4,8 +4,8 @@ void main(int argc, char** argv) {
     int my_rank;
     int p;                  // número de processos
     float a=0.0, b=1.0;     // intervalo a calcular
-    int n=1024;             // número de trapezóides
-    float h;                      // base do trapezóide
+    int n=1025;             // número de trapezóides
+    float h;                // base do trapezóide
     float local_a, local_b; // intervalo local
     int local_n;            // número de trapezóides local
     float integral;         // integral no meu intervalo
