@@ -18,8 +18,6 @@ int main (int argc, char** argv) {
 	float integral; // integral no meu intervalo
 	float total; // integral total
 	int source; // remetente da integral
-	int dest=0; // destino das integrais (nó 0)
-	int tag=200; // tipo de mensagem (único)
 	int provided;
 	
 	MPI_Status status;
